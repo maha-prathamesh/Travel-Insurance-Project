@@ -6,5 +6,6 @@ Wrongly denying a genuine claim could lead to lawsuits against the company and a
 Full Presentation : <br>
 [Will They Claim It?](https://github.com/maha-prathamesh/Travel-Insurance-Project/blob/main/Will_They_Claim_It.pdf)
 <br>
+Approach Notes:<br>
 [Appraoch_Notes](https://github.com/maha-prathamesh/Travel-Insurance-Project/blob/main/ApproachNote_1.txt)
   
