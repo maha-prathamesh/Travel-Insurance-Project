@@ -1,0 +1,33 @@
+Project: Will They Claim it? By Binary Pundits
+
+Description:
+SafeTravels is world’s largest insurance companies specializing in travel insurance. 1000s of claims spread across different products are received weekly thereby increasing manual effort and time. Automatically predicting the claims could lead to less effort, time and operational costs. Whenever a claim is registered and if accepted it is a cost to the company. We as data Scientists are
+building an ML model to predict whether the customer will apply for the claim or not.
+
+
+
+Software needed to Install:
+This project requires Python and the following Python libraries installed:
+- NumPy
+- Pandas
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Palleteable
+
+Work distribution among the Team:
+- Team had discussions on problem statement, business metric, data science metric, pipeline and the overall work that needed to be done.
+- After this discussion we formed two groups to distribute the work.
+- One group is focussing on following tasks: EDA, Hypothesis testing, building insights, presentation etc.
+- The other group is working on following tasks: Feature Selection, Feature Importance, Model Building and its approaches etc.
+
+Key Assumptions for analysis:
+- Claimed/Claim or value 1 means Claim Registered
+- Plan/Insurance/Product are same
+- Sales and commission are considered to be in $
+
+Prediction Models:
+- Logistic Regression
+- Descision Tree
+- Random Forest Classifier
+- XGBoost Algorithm
