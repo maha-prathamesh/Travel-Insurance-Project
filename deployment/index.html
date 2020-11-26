@@ -1,0 +1,371 @@
+<form action="{{ url_for('predict')}}" method="post">
+    <select>
+        <option value="" disabled selected>Agnecy</option>
+        <option value="EPX">EPX</option>
+        <option value="CWT">CWT</option>
+        <option value="JZI">JZI</option>
+        <option value="C2B">C2B</option>
+        <option value="RAB">RAB</option>
+        <option value="TST">TST</option>
+        <option value="CSR">CSR</option>
+        <option value="JWT">JWT</option>
+        <option value="LWC">LWC</option>
+        <option value="SSI">SSI</option>
+        <option value="ART">ART</option>
+        <option value="CCR">CCR</option>
+        <option value="KML">KML</option>
+        <option value="ADM">ADM</option>
+        <option value="CBH">CBH</option>
+        <option value="TTW">TTW</option>
+    </select>
+
+    <select>
+        <option value="" disabled selected>Agnecy Type</option>
+        <option value="Travel">Travel Agency</option>
+        <option value="Airlines">Airlines</option>
+    </select>
+
+    <select>
+        <option value="" disabled selected>Distribution Channel</option>
+        <option value="Online">Online</option>
+        <option value="Offline">Offline</option>
+    </select>
+    
+    <select>
+        <option value="" disabled selected>Product Name</option>
+        <option value="Cancellation Plan">Cancellation Plan</option>
+        <option value="Rental Vehicle Excess Insurance">Rental Vehicle Excess Insurance</option>
+        <option value="2 way Comprehensive Plan">2 way Comprehensive Plan</option>
+        <option value="Basic Plan">Basic Plan</option>
+        <option value="Bronze Plan">Bronze Plan</option>
+        <option value="CSilver Plan">Silver Plan</option>
+        <option value="1 way Comprehensive Plan">1 way Comprehensive Plan</option>
+        <option value="Value Plan">Value Plan</option>
+        <option value="Annual Silver Plan">Annual Silver Plan</option>
+        <option value="Travel Cruise Protect">Travel Cruise Protect</option>
+        <option value="Comprehensive Plan">Comprehensive Plan</option>
+        <option value="Annual Gold Plan">Annual Gold Plan</option>
+        <option value="Single Trip Travel Protect Gold">Single Trip Travel Protect Gold</option>
+        <option value="Single Trip Travel Protect Silver">Single Trip Travel Protect Silver</option>
+        <option value="Ticket Protector">Ticket Protector</option>
+        <option value="24 Protect">24 Protect</option>
+        <option value="Gold Plan">Gold Plan</option>
+        <option value="Annual Travel Protect Gold">Annual Travel Protect Gold</option>
+        <option value="Annual Travel Protect Platinum">Annual Travel Protect Platinum</option>
+        <option value="Single Trip Travel Protect Platinum">Single Trip Travel Protect Platinum</option>
+        <option value="Annual Travel Protect Silver">Annual Travel Protect Silver</option>
+        <option value="Premier Plan">Premier Plan</option>
+        <option value="Individual Comprehensive Plan">Individual Comprehensive Plan</option>
+        <option value="Individual Comprehensive Plan">Individual Comprehensive Plan</option>
+        <option value="Spouse or Parents Comprehensive Plan">Spouse or Parents Comprehensive Plan</option>
+        <option value="SChild Comprehensive Plan">Child Comprehensive Plan</option>
+    </select>
+
+    <input name="name" placeholder="Duration" class="name" required />
+    
+    <select>
+        <option value="" disabled selected>Destination</option>
+        <option value="PHILIPPINES">PHILIPPINES</option>
+        <option value="MALAYSIA">MALAYSIA</option>
+        <option value="THAILAND">THAILAND</option>
+        <option value="HONG KONG">HONG KONG</option>
+        <option value="UNITED KINGDOM">UNITED KINGDOM</option>
+        <option value="VIET NAM">VIET NAM</option>
+        <option value="CHINA">CHINA</option>
+        <option value="SINGAPORE">SINGAPORE</option>
+        <option value="JAPAN">JAPAN</option>
+        <option value="INDONESIA">INDONESIA</option>
+        <option value="UNITED ARAB EMIRATES">UNITED ARAB EMIRATES</option>
+        <option value="BRUNEI DARUSSALAM">BRUNEI DARUSSALAM</option>
+        <option value="UNITED STATES">UNITED STATES</option>
+        <option value="CANADA">CANADA</option>
+        <option value="INDIA">INDIA</option>
+        <option value="KOREA">KOREA</option>
+        <option value="CAMBODIA">CAMBODIA</option>
+        <option value="AUSTRALIA">AUSTRALIA</option>
+        <option value="MONGOLIA">MONGOLIA</option>
+        <option value="SOUTH AFRICA">SOUTH AFRICA</option>
+        <option value="EGYPT">EGYPT</option>
+        <option value="CZECH REPUBLIC">CZECH REPUBLIC</option>
+        <option value="GERMANY">GERMANY</option>
+        <option value="NEPAL">NEPAL</option>
+        <option value="PAKISTAN">PAKISTAN</option>
+        <option value="FRANCE">FRANCE</option>
+        <option value="AUSTRALIA">MYANMAR</option>
+        <option value="TAIWAN">TAIWAN</option>
+        <option value="SPAIN">SPAIN</option>
+        <option value="NEW ZEALAND">NEW ZEALAND</option>
+        <option value="ISRAEL">ISRAEL</option>
+        <option value="NETHERLANDS">NETHERLANDS</option>
+        <option value="NORWAY">NORWAY</option>
+        <option value="SRI LANKA">SRI LANKA</option>
+        <option value="FINLAND">FINLAND</option>
+        <option value="IRELAND">IRELAND</option>
+        <option value="ITALY">ITALY</option>
+        <option value="ICELAND">ICELAND</option>
+        <option value="DENMARK">DENMARK</option>
+        <option value="SAUDI ARABIA">SAUDI ARABIA</option>
+        <option value="SWITZERLAND">SWITZERLAND</option>
+        <option value="MACAO">MACAO</option>
+        <option value="UKRAINE">UKRAINE</option>
+        <option value="PORTUGAL">PORTUGAL</option>
+        <option value="BELGIUM">BELGIUM</option>
+        <option value="HUNGARY">HUNGARY</option>
+        <option value="GREECE">GREECE</option>
+        <option value="MALDIVES">MALDIVES</option>
+        <option value="LAO PEOPLE'S DEMOCRATIC REPUBLIC">LAO PEOPLE'S DEMOCRATIC REPUBLIC</option>
+        <option value="MOROCCO">MOROCCO</option>
+        <option value="KAZAKHSTAN">KAZAKHSTAN</option>
+        <option value="TURKEY">TURKEY</option>
+        <option value="MAURITIUS">MAURITIUS</option>
+        <option value="TURKEY">TURKEY</option>
+        <option value="BANGLADESH">BANGLADESH</option>
+        <option value="PERU">PERU</option>
+        <option value="SWEDEN">SWEDEN</option>
+        <option value="KENYA">KENYA</option>
+        <option value="FIJI">FIJI</option>
+        <option value="CYPRUS">CYPRUS</option>
+        <option value="BRAZIL">BRAZIL</option>
+        <option value="RUSSIAN FEDERATION">RUSSIAN FEDERATION</option>
+        <option value="MEXICO">MEXICO</option>
+        <option value="AUSTRIA">AUSTRIA</option>
+        <option value="TANZANIA, UNITED REPUBLIC OF">TANZANIA, UNITED REPUBLIC OF</option>
+        <option value="LEBANON">LEBANON</option>
+        <option value="POLAND">POLAND</option>
+        <option value="ROMANIA">ROMANIA</option>
+        <option value="SLOVENIA">SLOVENIA</option>
+        <option value="BELARUS">BELARUS</option>
+        <option value="MALTA">MALTA</option>
+        <option value="OMAN">OMAN</option>
+        <option value="UZBEKISTAN">UZBEKISTAN</option>
+        <option value="COLOMBIA">COLOMBIA</option>
+        <option value="QATAR">QATAR</option>
+        <option value="CROATIA">CROATIA</option>
+        <option value="GEORGIA">GEORGIA</option>
+        <option value="ARGENTINA">ARGENTINA</option>
+        <option value="ESTONIA">ESTONIA</option>
+        <option value="VENEZUELA">VENEZUELA</option>
+        <option value="LITHUANIA">LITHUANIA</option>
+        <option value="COSTA RICA">COSTA RICA</option>
+        <option value="COLOMBIA">COLOMBIA</option>
+        <option value="LUXEMBOURG">LUXEMBOURG</option>
+        <option value="BOLIVIA">BOLIVIA</option>
+        <option value="CHILE">CHILE</option>
+        <option value="JORDAN">JORDAN</option>
+        <option value="VANUATU">VANUATU</option>
+        <option value="TUNISIA">TUNISIA</option>
+        <option value="BAHRAIN">BAHRAIN</option>
+        <option value="AZERBAIJAN">AZERBAIJAN</option>
+        <option value="KYRGYZSTAN">KYRGYZSTAN</option>
+        <option value="KUWAIT">KUWAIT</option>
+        <option value="BERMUDA">BERMUDA</option>
+        <option value="BHUTAN">BHUTAN</option>
+        <option value="GUAM">GUAM</option>
+        <option value="ZAMBIA">ZAMBIA</option>
+        <option value="TURKMENISTAN">TURKMENISTAN</option>
+        <option value="ETHIOPIA">ETHIOPIA</option>
+    </select>
+
+    <input name="name" placeholder="Net Sales" class="name" required />
+    <input name="name" placeholder="Commision (in value)" class="name" required />
+    <input name="name" placeholder="Age" class="name" required />
+    <input name="submit" class="btn" type="submit" value="Predict" />
+    <br><br><h3>{{ prediction_text }}<h3>
+</form>
+
+
+
+<style>
+  @import url(static/img/travel1.jpg);
+body {
+	  background:#2d3b36 url(static/img/travel1.jpg)no-repeat center center fixed;
+  	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+    padding-top:40px;
+}
+
+form {
+    margin-left:auto;
+    margin-right:auto;
+    width: 343px;
+    height: 710px;
+    padding:30px;
+    border: 1px solid rgba(0,0,0,.2);
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background: rgba(0, 0, 0, 0.5); 
+    -moz-box-shadow: 0 0 13px 3px rgba(0,0,0,.5);
+    -webkit-box-shadow: 0 0 13px 3px rgba(0,0,0,.5);
+    box-shadow: 0 0 13px 3px rgba(0,0,0,.5);
+    overflow: hidden; 
+}
+
+textarea{
+	  background: rgba(255, 255, 255, 0.4) url(http://luismruiz.com/img/gemicon_message.png) no-repeat scroll 16px 16px; 
+    width: 276px;
+    height: 110px;
+    border: 1px solid rgba(255,255,255,.6);
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box; 
+    display:block;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:18px;
+    color:#fff;
+    padding-left:45px;
+    padding-right:20px;
+    padding-top:12px;
+    margin-bottom:20px;
+    overflow:hidden;
+}
+
+input {
+    width: 276px;
+    height: 48px;
+    border: 1px solid rgba(255,255,255,.4);
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box; 
+    display:block;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:18px;
+    color:#fff;
+    padding-left:20px;
+    padding-right:20px;
+    margin-bottom:20px;
+}
+select{
+    width: 276px;
+    height: 48px;
+    border: 1px solid rgba(255,255,255,.4);
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box; 
+    display:block;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:18px;
+    color:#fff;
+    padding-left:20px;
+    padding-right:20px;
+    margin-bottom:20px;
+}
+
+input[type=submit] {
+    cursor:pointer;
+}
+
+input.name {
+	  background: rgba(255, 255, 255, 0.4) url(http://luismruiz.com/img/gemicon_name.png) no-repeat scroll 16px 16px; 
+	  padding-left:45px;
+}
+
+select{
+    background: rgba(255, 255, 255, 0.4) url(http://luismruiz.com/img/gemicon_name.png) no-repeat scroll 16px 16px; 
+	  padding-left:45px;
+}
+
+input.email {
+	  background: rgba(255, 255, 255, 0.4) url(http://luismruiz.com/img/gemicon_email.png) no-repeat scroll 16px 20px;
+	  padding-left:45px;
+}
+
+input.message {
+	  background: rgba(255, 255, 255, 0.4) url(http://luismruiz.com/img/gemicon_message.png) no-repeat scroll 16px 16px;
+	  padding-left:45px;
+}
+
+::-webkit-input-placeholder {
+	  color: #fff;
+}
+
+:-moz-placeholder{ 
+    color: #fff; 
+}
+
+::-moz-placeholder {
+    color: #fff;
+}
+
+:-ms-input-placeholder {  
+	  color: #fff; 
+}
+
+input:focus, textarea:focus, select:focus{ 
+	  background-color: rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 0 5px 1px rgba(255,255,255,.5);
+    -webkit-box-shadow: 0 0 5px 1px rgba(255,255,255,.5);
+    box-shadow: 0 0 5px 1px rgba(255,255,255,.5);
+	  overflow: hidden; 
+}
+
+.btn {
+	  width: 138px;
+	  height: 44px;
+	  -moz-border-radius: 4px;
+	  -webkit-border-radius: 4px;
+	  border-radius: 4px;
+	  float:right;
+    border: 1px solid #253737;
+    background: #416b68;
+    background: -webkit-gradient(linear, left top, left bottom, from(#6da5a3), to(#416b68));
+    background: -webkit-linear-gradient(top, #6da5a3, #416b68);
+    background: -moz-linear-gradient(top, #6da5a3, #416b68);
+    background: -ms-linear-gradient(top, #6da5a3, #416b68);
+    background: -o-linear-gradient(top, #6da5a3, #416b68);
+    background-image: -ms-linear-gradient(top, #6da5a3 0%, #416b68 100%);
+    padding: 10.5px 21px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: rgba(255,255,255,0.1) 0 1px 0, inset rgba(255,255,255,0.7) 0 1px 0;
+    -moz-box-shadow: rgba(255,255,255,0.1) 0 1px 0, inset rgba(255,255,255,0.7) 0 1px 0;
+    box-shadow: rgba(255,255,255,0.1) 0 1px 0, inset rgba(255,255,255,0.7) 0 1px 0;
+    text-shadow: #333333 0 1px 0;
+    color: #e1e1e1;
+}
+
+.btn:hover {
+    border: 1px solid #253737;
+    text-shadow: #333333 0 1px 0;
+    background: #416b68;
+    background: -webkit-gradient(linear, left top, left bottom, from(#77b2b0), to(#416b68));
+    background: -webkit-linear-gradient(top, #77b2b0, #416b68);
+    background: -moz-linear-gradient(top, #77b2b0, #416b68);
+    background: -ms-linear-gradient(top, #77b2b0, #416b68);
+    background: -o-linear-gradient(top, #77b2b0, #416b68);
+    background-image: -ms-linear-gradient(top, #77b2b0 0%, #416b68 100%);
+    color: #fff;
+ }
+
+.btn:active {
+    margin-top:1px;
+    text-shadow: #333333 0 -1px 0;
+    border: 1px solid #253737;
+    background: #6da5a3;
+    background: -webkit-gradient(linear, left top, left bottom, from(#416b68), to(#416b68));
+    background: -webkit-linear-gradient(top, #416b68, #609391);
+    background: -moz-linear-gradient(top, #416b68, #6da5a3);
+    background: -ms-linear-gradient(top, #416b68, #6da5a3);
+    background: -o-linear-gradient(top, #416b68, #6da5a3);
+    background-image: -ms-linear-gradient(top, #416b68 0%, #6da5a3 100%);
+    color: #fff;
+    -webkit-box-shadow: rgba(255,255,255,0) 0 1px 0, inset rgba(255,255,255,0.7) 0 1px 0;
+    -moz-box-shadow: rgba(255,255,255,0) 0 1px 0, inset rgba(255,255,255,0.7) 0 1px 0;
+    box-shadow: rgba(255,255,255,0) 0 1px 0, inset rgba(255,255,255,0.7) 0 1px 0;
+   }
+</style>
